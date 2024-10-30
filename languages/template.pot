@@ -1,0 +1,797 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mantiq\n"
+"POT-Creation-Date: 2021-10-26 17:49+0100\n"
+"PO-Revision-Date: 2019-02-19 13:47+0400\n"
+"Last-Translator: \n"
+"Language-Team: Mantiq <support@wpmantiq.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;esc_attr__;esc_attr_e;i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Actions/Comments/CreateComment.php:16
+msgid "Create comment"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:21
+msgid "Create a generic comment."
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:26 Actions/Comments/DeleteComment.php:25
+#: Actions/Comments/GetComment.php:26 Actions/Comments/QueryComments.php:25
+#: Actions/Comments/QueryComments.php:42 Actions/Comments/TrashComment.php:25
+#: Actions/Comments/UpdateComment.php:26
+#: Triggers/Events/Comments/CommentDeleted.php:24
+#: Triggers/Events/Comments/CommentPosted.php:24
+#: Triggers/Events/Comments/CommentSpam.php:24
+#: Triggers/Events/Comments/CommentTrashed.php:24
+#: Triggers/Events/Comments/CommentUpdated.php:24
+msgid "Comments"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:35 Actions/Comments/GetComment.php:35
+#: Actions/Comments/TrashComment.php:34 Actions/Comments/UpdateComment.php:35
+#: Actions/Metadata/CreateMetadata.php:34
+#: Actions/Metadata/DeleteMetadata.php:34 Actions/Metadata/GetMetadata.php:34
+#: Actions/Metadata/UpdateMetadata.php:34 Actions/Options/CreateOption.php:34
+#: Actions/Options/DeleteOption.php:34 Actions/Options/GetOption.php:34
+#: Actions/Options/UpdateOption.php:34 Actions/Posts/CreatePost.php:35
+#: Actions/Posts/DeletePost.php:34 Actions/Posts/GetPost.php:35
+#: Actions/Posts/TrashPost.php:34 Actions/Posts/UpdatePost.php:35
+#: Actions/Terms/AssignTermsToPost.php:35 Actions/Terms/CreateTerm.php:35
+#: Actions/Terms/DeleteTerm.php:34 Actions/Terms/GetTerm.php:35
+#: Actions/Terms/UpdateTerm.php:35 Actions/Users/CreateUser.php:35
+#: Actions/Users/DeleteUser.php:34 Actions/Users/GetUser.php:35
+#: Actions/Users/UpdateUser.php:35
+msgid "Operation state"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:36 Actions/Comments/GetComment.php:36
+#: Actions/Comments/TrashComment.php:35 Actions/Comments/UpdateComment.php:36
+#: Actions/Metadata/CreateMetadata.php:35
+#: Actions/Metadata/DeleteMetadata.php:35 Actions/Metadata/GetMetadata.php:35
+#: Actions/Metadata/UpdateMetadata.php:35 Actions/Options/CreateOption.php:35
+#: Actions/Options/DeleteOption.php:35 Actions/Options/GetOption.php:35
+#: Actions/Options/UpdateOption.php:35 Actions/Posts/CreatePost.php:36
+#: Actions/Posts/DeletePost.php:35 Actions/Posts/GetPost.php:36
+#: Actions/Posts/TrashPost.php:35 Actions/Posts/UpdatePost.php:36
+#: Actions/Terms/AssignTermsToPost.php:36 Actions/Terms/CreateTerm.php:36
+#: Actions/Terms/DeleteTerm.php:35 Actions/Terms/GetTerm.php:36
+#: Actions/Terms/UpdateTerm.php:36 Actions/Users/CreateUser.php:36
+#: Actions/Users/DeleteUser.php:35 Actions/Users/GetUser.php:36
+#: Actions/Users/UpdateUser.php:36
+msgid "Whether the operation succeeded or not."
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:43 Actions/Comments/GetComment.php:43
+#: Actions/Comments/UpdateComment.php:43
+#: Triggers/Events/Comments/CommentDeleted.php:33
+#: Triggers/Events/Comments/CommentPosted.php:33
+#: Triggers/Events/Comments/CommentSpam.php:33
+#: Triggers/Events/Comments/CommentTrashed.php:33
+#: Triggers/Events/Comments/CommentUpdated.php:33
+msgid "Comment ID"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:44 Actions/Comments/UpdateComment.php:44
+msgid "The ID of the newly created comment."
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:51 Actions/Comments/GetComment.php:51
+#: Actions/Comments/UpdateComment.php:51
+msgid "Comment Permalink"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:52 Actions/Comments/UpdateComment.php:52
+msgid "The permalink newly created comment."
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:59 Actions/Comments/GetComment.php:59
+#: Actions/Comments/UpdateComment.php:59
+msgid "Comment Object"
+msgstr ""
+
+#: Actions/Comments/CreateComment.php:60 Actions/Comments/GetComment.php:60
+#: Actions/Comments/UpdateComment.php:60
+msgid "The comment object (WP_Comment)."
+msgstr ""
+
+#: Actions/Comments/DeleteComment.php:15
+msgid "Delete comment"
+msgstr ""
+
+#: Actions/Comments/DeleteComment.php:20
+msgid "Delete a generic comment."
+msgstr ""
+
+#: Actions/Comments/DeleteComment.php:34
+msgid "Comment deletion"
+msgstr ""
+
+#: Actions/Comments/DeleteComment.php:35
+msgid "Whether the comment has been deleted or not."
+msgstr ""
+
+#: Actions/Comments/GetComment.php:16
+msgid "Get comment"
+msgstr ""
+
+#: Actions/Comments/GetComment.php:21
+msgid "Get a generic comment."
+msgstr ""
+
+#: Actions/Comments/GetComment.php:44
+msgid "The ID of the of the retrieved comment."
+msgstr ""
+
+#: Actions/Comments/GetComment.php:52
+msgid "The permalink of the retrieved comment."
+msgstr ""
+
+#: Actions/Comments/QueryComments.php:15
+msgid "Query comments"
+msgstr ""
+
+#: Actions/Comments/QueryComments.php:20
+msgid "Query a list of comments."
+msgstr ""
+
+#: Actions/Comments/QueryComments.php:34
+msgid "Number of comments"
+msgstr ""
+
+#: Actions/Comments/QueryComments.php:35
+msgid "The count of matching comments."
+msgstr ""
+
+#: Actions/Comments/QueryComments.php:43
+msgid "An array of comments (WP_Comment)."
+msgstr ""
+
+#: Actions/Comments/TrashComment.php:15
+msgid "Trash comment"
+msgstr ""
+
+#: Actions/Comments/TrashComment.php:20
+msgid "Trash a generic comment."
+msgstr ""
+
+#: Actions/Comments/UpdateComment.php:16
+msgid "Update comment"
+msgstr ""
+
+#: Actions/Comments/UpdateComment.php:21
+msgid "Update a generic comment."
+msgstr ""
+
+#: Actions/Developers/EchoOutput.php:14
+msgid "Echo"
+msgstr ""
+
+#: Actions/Developers/EchoOutput.php:19
+msgid "Echo the content to the buffer."
+msgstr ""
+
+#: Actions/Developers/EchoOutput.php:24
+msgid "Developers - Utilities"
+msgstr ""
+
+#: Actions/Metadata/CreateMetadata.php:15
+msgid "Create metadata"
+msgstr ""
+
+#: Actions/Metadata/CreateMetadata.php:20
+msgid "Create a generic metadata."
+msgstr ""
+
+#: Actions/Metadata/CreateMetadata.php:25
+#: Actions/Metadata/DeleteMetadata.php:25 Actions/Metadata/GetMetadata.php:25
+#: Actions/Metadata/UpdateMetadata.php:25
+msgid "Metadata"
+msgstr ""
+
+#: Actions/Metadata/DeleteMetadata.php:15
+msgid "Delete metadata"
+msgstr ""
+
+#: Actions/Metadata/DeleteMetadata.php:20
+msgid "Delete a generic metadata."
+msgstr ""
+
+#: Actions/Metadata/GetMetadata.php:15
+msgid "Get metadata"
+msgstr ""
+
+#: Actions/Metadata/GetMetadata.php:20
+msgid "Get a generic metadata."
+msgstr ""
+
+#: Actions/Metadata/GetMetadata.php:42
+msgid "Entries"
+msgstr ""
+
+#: Actions/Metadata/GetMetadata.php:43
+msgid "A map of requested entries."
+msgstr ""
+
+#: Actions/Metadata/UpdateMetadata.php:15
+msgid "Update metadata"
+msgstr ""
+
+#: Actions/Metadata/UpdateMetadata.php:20
+msgid "Update a generic metadata."
+msgstr ""
+
+#: Actions/Options/CreateOption.php:15
+msgid "Create option"
+msgstr ""
+
+#: Actions/Options/CreateOption.php:20
+msgid "Create a generic option."
+msgstr ""
+
+#: Actions/Options/CreateOption.php:25 Actions/Options/DeleteOption.php:25
+#: Actions/Options/GetOption.php:25 Actions/Options/GetOption.php:42
+#: Actions/Options/UpdateOption.php:25
+msgid "Options"
+msgstr ""
+
+#: Actions/Options/DeleteOption.php:15
+msgid "Delete option"
+msgstr ""
+
+#: Actions/Options/DeleteOption.php:20
+msgid "Delete a generic option."
+msgstr ""
+
+#: Actions/Options/GetOption.php:15
+msgid "Get option"
+msgstr ""
+
+#: Actions/Options/GetOption.php:20
+msgid "Get a generic option."
+msgstr ""
+
+#: Actions/Options/GetOption.php:43
+msgid "A map of requested options."
+msgstr ""
+
+#: Actions/Options/UpdateOption.php:15
+msgid "Update option"
+msgstr ""
+
+#: Actions/Options/UpdateOption.php:20
+msgid "Update a generic option."
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:16
+msgid "Create post"
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:21
+msgid "Create a generic post."
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:26 Actions/Posts/DeletePost.php:25
+#: Actions/Posts/GetPost.php:26 Actions/Posts/QueryPosts.php:25
+#: Actions/Posts/QueryPosts.php:42 Actions/Posts/TrashPost.php:25
+#: Actions/Posts/UpdatePost.php:26 Triggers/Events/Posts/PostDeleted.php:24
+#: Triggers/Events/Posts/PostPending.php:24
+#: Triggers/Events/Posts/PostPublished.php:24
+#: Triggers/Events/Posts/PostTrashed.php:24
+#: Triggers/Events/Posts/PostUpdated.php:24
+msgid "Posts"
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:43 Actions/Posts/GetPost.php:43
+#: Actions/Posts/UpdatePost.php:43 Triggers/Events/Posts/PostDeleted.php:33
+#: Triggers/Events/Posts/PostPending.php:33
+#: Triggers/Events/Posts/PostPublished.php:33
+#: Triggers/Events/Posts/PostTrashed.php:33
+#: Triggers/Events/Posts/PostUpdated.php:33
+msgid "Post ID"
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:44 Actions/Posts/UpdatePost.php:44
+msgid "The ID of the newly created post."
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:51 Actions/Posts/GetPost.php:51
+#: Actions/Posts/UpdatePost.php:51
+msgid "Post Permalink"
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:52 Actions/Posts/UpdatePost.php:52
+msgid "The permalink newly created post."
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:59 Actions/Posts/GetPost.php:59
+#: Actions/Posts/UpdatePost.php:59
+msgid "Post Object"
+msgstr ""
+
+#: Actions/Posts/CreatePost.php:60 Actions/Posts/GetPost.php:60
+#: Actions/Posts/UpdatePost.php:60
+msgid "The post object (WP_Post)."
+msgstr ""
+
+#: Actions/Posts/DeletePost.php:15
+msgid "Delete post"
+msgstr ""
+
+#: Actions/Posts/DeletePost.php:20
+msgid "Delete a generic post."
+msgstr ""
+
+#: Actions/Posts/GetPost.php:16
+msgid "Get post"
+msgstr ""
+
+#: Actions/Posts/GetPost.php:21
+msgid "Get a generic post."
+msgstr ""
+
+#: Actions/Posts/GetPost.php:44
+msgid "The ID of the of the retrieved post."
+msgstr ""
+
+#: Actions/Posts/GetPost.php:52
+msgid "The permalink of the retrieved post."
+msgstr ""
+
+#: Actions/Posts/QueryPosts.php:15
+msgid "Query posts"
+msgstr ""
+
+#: Actions/Posts/QueryPosts.php:20
+msgid "Query a list of posts."
+msgstr ""
+
+#: Actions/Posts/QueryPosts.php:34
+msgid "Number of posts"
+msgstr ""
+
+#: Actions/Posts/QueryPosts.php:35
+msgid "The count of matching posts."
+msgstr ""
+
+#: Actions/Posts/QueryPosts.php:43
+msgid "An array of posts (WP_Post)."
+msgstr ""
+
+#: Actions/Posts/TrashPost.php:15
+msgid "Trash post"
+msgstr ""
+
+#: Actions/Posts/TrashPost.php:20
+msgid "Trash a generic post."
+msgstr ""
+
+#: Actions/Posts/UpdatePost.php:16
+msgid "Update post"
+msgstr ""
+
+#: Actions/Posts/UpdatePost.php:21
+msgid "Update a generic post."
+msgstr ""
+
+#: Actions/SendEmail.php:15
+msgid "Send email"
+msgstr ""
+
+#: Actions/SendEmail.php:20
+msgid "Send an email."
+msgstr ""
+
+#: Actions/SendEmail.php:25
+msgid "Emails"
+msgstr ""
+
+#: Actions/SendEmail.php:34
+msgid "Email sent"
+msgstr ""
+
+#: Actions/SendEmail.php:35
+msgid "Whether the email has been sent or not."
+msgstr ""
+
+#: Actions/Terms/AssignTermsToPost.php:16
+msgid "Assign terms to post"
+msgstr ""
+
+#: Actions/Terms/AssignTermsToPost.php:21
+msgid "Assign terms to a post."
+msgstr ""
+
+#: Actions/Terms/AssignTermsToPost.php:26 Actions/Terms/CreateTerm.php:26
+#: Actions/Terms/DeleteTerm.php:25 Actions/Terms/GetTerm.php:26
+#: Actions/Terms/QueryTerms.php:25 Actions/Terms/QueryTerms.php:42
+#: Actions/Terms/UpdateTerm.php:26
+msgid "Terms"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:16
+msgid "Create term"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:21
+msgid "Create a generic term."
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:43 Actions/Terms/GetTerm.php:43
+#: Actions/Terms/UpdateTerm.php:43
+msgid "Term ID"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:44 Actions/Terms/CreateTerm.php:52
+#: Actions/Terms/GetTerm.php:44 Actions/Terms/GetTerm.php:52
+#: Actions/Terms/UpdateTerm.php:44
+msgid "The ID of the newly created term."
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:51 Actions/Terms/GetTerm.php:51
+msgid "Term Taxonomy ID"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:59 Actions/Terms/GetTerm.php:59
+#: Actions/Terms/UpdateTerm.php:51
+msgid "Term Permalink"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:60 Actions/Terms/GetTerm.php:60
+#: Actions/Terms/UpdateTerm.php:52
+msgid "The permalink newly created term."
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:67 Actions/Terms/GetTerm.php:67
+#: Actions/Terms/UpdateTerm.php:59
+msgid "Term Object"
+msgstr ""
+
+#: Actions/Terms/CreateTerm.php:68 Actions/Terms/GetTerm.php:68
+#: Actions/Terms/UpdateTerm.php:60
+msgid "The term object (WP_Term)."
+msgstr ""
+
+#: Actions/Terms/DeleteTerm.php:15
+msgid "Delete term"
+msgstr ""
+
+#: Actions/Terms/DeleteTerm.php:20
+msgid "Delete a generic term."
+msgstr ""
+
+#: Actions/Terms/GetTerm.php:16
+msgid "Get term"
+msgstr ""
+
+#: Actions/Terms/GetTerm.php:21
+msgid "Get a generic term."
+msgstr ""
+
+#: Actions/Terms/QueryTerms.php:15
+msgid "Query terms"
+msgstr ""
+
+#: Actions/Terms/QueryTerms.php:20
+msgid "Query a list of terms."
+msgstr ""
+
+#: Actions/Terms/QueryTerms.php:34
+msgid "Number of terms"
+msgstr ""
+
+#: Actions/Terms/QueryTerms.php:35
+msgid "The count of matching terms."
+msgstr ""
+
+#: Actions/Terms/QueryTerms.php:43
+msgid "An array of terms (WP_Term)."
+msgstr ""
+
+#: Actions/Terms/UpdateTerm.php:16
+msgid "Update term"
+msgstr ""
+
+#: Actions/Terms/UpdateTerm.php:21
+msgid "Update a generic term."
+msgstr ""
+
+#: Actions/Users/CreateUser.php:16
+msgid "Create user"
+msgstr ""
+
+#: Actions/Users/CreateUser.php:21
+msgid "Create a generic user."
+msgstr ""
+
+#: Actions/Users/CreateUser.php:26 Actions/Users/DeleteUser.php:25
+#: Actions/Users/GetUser.php:26 Actions/Users/QueryUsers.php:25
+#: Actions/Users/QueryUsers.php:42 Actions/Users/UpdateUser.php:26
+#: Triggers/Events/Users/UserDeleted.php:24
+#: Triggers/Events/Users/UserLoggedIn.php:24
+#: Triggers/Events/Users/UserLoggedOut.php:24
+#: Triggers/Events/Users/UserRegistered.php:24
+msgid "Users"
+msgstr ""
+
+#: Actions/Users/CreateUser.php:43 Actions/Users/GetUser.php:43
+#: Actions/Users/UpdateUser.php:43 Triggers/Events/Users/UserDeleted.php:33
+#: Triggers/Events/Users/UserLoggedOut.php:33
+#: Triggers/Events/Users/UserRegistered.php:33
+msgid "User ID"
+msgstr ""
+
+#: Actions/Users/CreateUser.php:44 Actions/Users/UpdateUser.php:44
+msgid "The ID of the newly created user."
+msgstr ""
+
+#: Actions/Users/CreateUser.php:51 Actions/Users/GetUser.php:51
+#: Actions/Users/UpdateUser.php:51
+msgid "User Object"
+msgstr ""
+
+#: Actions/Users/CreateUser.php:52 Actions/Users/GetUser.php:52
+#: Actions/Users/UpdateUser.php:52
+msgid "The user object (WP_User)."
+msgstr ""
+
+#: Actions/Users/DeleteUser.php:15
+msgid "Delete user"
+msgstr ""
+
+#: Actions/Users/DeleteUser.php:20
+msgid "Delete a generic user."
+msgstr ""
+
+#: Actions/Users/GetUser.php:16
+msgid "Get user"
+msgstr ""
+
+#: Actions/Users/GetUser.php:21
+msgid "Get a generic user."
+msgstr ""
+
+#: Actions/Users/GetUser.php:44
+msgid "The ID of the of the retrieved user."
+msgstr ""
+
+#: Actions/Users/QueryUsers.php:15
+msgid "Query users"
+msgstr ""
+
+#: Actions/Users/QueryUsers.php:20
+msgid "Query a list of users."
+msgstr ""
+
+#: Actions/Users/QueryUsers.php:34
+msgid "Number of users"
+msgstr ""
+
+#: Actions/Users/QueryUsers.php:35
+msgid "The count of matching users."
+msgstr ""
+
+#: Actions/Users/QueryUsers.php:43
+msgid "An array of users (WP_User)."
+msgstr ""
+
+#: Actions/Users/UpdateUser.php:16
+msgid "Update user"
+msgstr ""
+
+#: Actions/Users/UpdateUser.php:21
+msgid "Update a generic user."
+msgstr ""
+
+#: Actions/VoidAction.php:12
+msgid "Void"
+msgstr ""
+
+#: Actions/VoidAction.php:17
+msgid "Void action."
+msgstr ""
+
+#: Actions/VoidAction.php:22
+msgid "Other"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:18
+msgid "Hourly"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:27
+msgid "Daily"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:36
+msgid "Weekly"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:45
+msgid "Monthly"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:53
+msgid "Every Five Seconds"
+msgstr ""
+
+#: Tasks/Triggers/RegisterDefaultTriggerSchedules.php:64
+msgid "Minutely"
+msgstr ""
+
+#: Tasks/Workflows/GetGlobalsOutputs.php:17
+msgid "Current user"
+msgstr ""
+
+#: Tasks/Workflows/GetGlobalsOutputs.php:18
+msgid "Currently logged in user."
+msgstr ""
+
+#: Tasks/Workflows/GetGlobalsOutputs.php:25
+msgid "HTTP Request"
+msgstr ""
+
+#: Tasks/Workflows/GetGlobalsOutputs.php:26
+msgid "Current HTTP request."
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentAdded.php:19
+msgid "Attachment added"
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentAdded.php:24
+#: Triggers/Events/Attachments/AttachmentDeleted.php:24
+msgid "Attachments"
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentAdded.php:33
+#: Triggers/Events/Attachments/AttachmentDeleted.php:33
+msgid "Attachment ID"
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentAdded.php:40
+#: Triggers/Events/Attachments/AttachmentDeleted.php:40
+msgid "Attachment permalink"
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentAdded.php:47
+#: Triggers/Events/Attachments/AttachmentDeleted.php:47
+msgid "Attachment object"
+msgstr ""
+
+#: Triggers/Events/Attachments/AttachmentDeleted.php:19
+msgid "Attachment deleted"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentDeleted.php:19
+msgid "Comment deleted"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentDeleted.php:40
+#: Triggers/Events/Comments/CommentPosted.php:47
+#: Triggers/Events/Comments/CommentSpam.php:40
+#: Triggers/Events/Comments/CommentTrashed.php:40
+#: Triggers/Events/Comments/CommentUpdated.php:40
+msgid "Comment object"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentPosted.php:19
+msgid "Comment posted"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentPosted.php:40
+msgid "1 if the comment is approved, 0 if not"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentSpam.php:19
+#: Triggers/Events/Comments/CommentTrashed.php:19
+msgid "Comment trashed"
+msgstr ""
+
+#: Triggers/Events/Comments/CommentUpdated.php:19
+msgid "Comment updated"
+msgstr ""
+
+#: Triggers/Events/Developers/PageFooter.php:16
+msgid "Footer"
+msgstr ""
+
+#: Triggers/Events/Developers/PageFooter.php:21
+#: Triggers/Events/Developers/PageHead.php:21
+msgid "Developers - Frontend"
+msgstr ""
+
+#: Triggers/Events/Developers/PageHead.php:16
+msgid "Page head (scripts and meta tags)"
+msgstr ""
+
+#: Triggers/Events/Posts/PostDeleted.php:19
+msgid "Post deleted"
+msgstr ""
+
+#: Triggers/Events/Posts/PostDeleted.php:40
+#: Triggers/Events/Posts/PostPending.php:40
+#: Triggers/Events/Posts/PostPublished.php:40
+#: Triggers/Events/Posts/PostTrashed.php:40
+#: Triggers/Events/Posts/PostUpdated.php:40
+msgid "Post permalink"
+msgstr ""
+
+#: Triggers/Events/Posts/PostDeleted.php:47
+#: Triggers/Events/Posts/PostPending.php:47
+#: Triggers/Events/Posts/PostPublished.php:47
+#: Triggers/Events/Posts/PostTrashed.php:47
+msgid "Post object"
+msgstr ""
+
+#: Triggers/Events/Posts/PostPending.php:19
+msgid "Post pending"
+msgstr ""
+
+#: Triggers/Events/Posts/PostPublished.php:19
+msgid "Post published"
+msgstr ""
+
+#: Triggers/Events/Posts/PostTrashed.php:19
+msgid "Post trashed"
+msgstr ""
+
+#: Triggers/Events/Posts/PostUpdated.php:19
+msgid "Post updated"
+msgstr ""
+
+#: Triggers/Events/Posts/PostUpdated.php:47
+msgid "Post object (before)"
+msgstr ""
+
+#: Triggers/Events/Posts/PostUpdated.php:54
+msgid "Post object (after)"
+msgstr ""
+
+#: Triggers/Events/Users/UserDeleted.php:19
+msgid "User deleted"
+msgstr ""
+
+#: Triggers/Events/Users/UserDeleted.php:40
+msgid "ID of the user to reassign posts and links to."
+msgstr ""
+
+#: Triggers/Events/Users/UserDeleted.php:47
+#: Triggers/Events/Users/UserLoggedIn.php:40
+#: Triggers/Events/Users/UserLoggedOut.php:40
+#: Triggers/Events/Users/UserRegistered.php:40
+msgid "User object"
+msgstr ""
+
+#: Triggers/Events/Users/UserLoggedIn.php:19
+msgid "User logged in"
+msgstr ""
+
+#: Triggers/Events/Users/UserLoggedIn.php:33
+msgid "Username"
+msgstr ""
+
+#: Triggers/Events/Users/UserLoggedOut.php:19
+msgid "User logged out"
+msgstr ""
+
+#: Triggers/Events/Users/UserRegistered.php:19
+msgid "User created"
+msgstr ""
+
+#: WordPress/AdminPage.php:32
+msgid "Mantiq"
+msgstr ""
+
+#: WordPress/AdminPage.php:33
+msgid "Workflows"
+msgstr ""
